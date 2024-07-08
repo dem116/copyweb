@@ -1,0 +1,181 @@
+.cabecera {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:start;
+}
+
+.nav1 {
+    display: flex;
+    gap: 20px;
+    font-family: 'Source Sans Pro', 'Lucida Grande', sans-serif;
+    font-size: medium;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+  }
+
+  .npm {
+    font-family: 'Source Sans Pro', 'Lucida Grande', sans-serif;
+  }
+
+.buscar-bar {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+}
+
+input[type="search"] {
+    width: 400px;
+    height: 40px;
+    padding-right: 0%;
+    margin-right: 0%; 
+    background-color: #f2f2f2;
+    font-size: 20px;
+    border: none;
+  }
+
+.search {
+    background-color: black;
+    color: white;
+    width: 80px;
+    height: 40px;
+}
+
+.sesionUp {
+    background-color: white;
+    border: 1px solid;
+    border-color: black;
+    width: 80px;
+    height: 40px;
+    margin-right: 0%;
+    padding-right: 0%;
+}
+
+.sesionIn {
+    background-color: white;
+    width: 80px;
+    height: 40px;
+    border: none;
+    padding-left: 0%;
+    margin-left: 0%;
+}
+
+.primeraColors {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: cover;
+    height: 800px;
+    background-image: url('https://static-production.npmjs.com/abf53a31b2da4657a1a004ee9358551c.png'); /*imagen del visual no sirve*/
+    background-size: cover; 
+    background-repeat: no-repeat;
+    color: white;
+    font-family: Poppins, sans-serif;
+ }
+
+ .primeraColors h1 {
+    font-family: Poppins, sans-serif;
+    font-weight: 600;
+    font-size: 70px;
+ }
+
+ .botones-div {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+ .SignUp-free {
+    background-color: #ffc329;
+    color: black;
+    border: 1px;
+    border-radius: 70px; 
+    padding: 10px 20px; 
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.Learn-about {
+background-color: #cb3837;
+color: white;
+border: 1px solid;
+border-color: white;
+border-radius: 70px; 
+padding: 10px 20px; 
+font-size: 16px;
+cursor: pointer;
+}
+
+.segunda {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: cover;
+    height: 700px;
+    font-family: 'Source Sans Pro', 'Lucida Grande', sans-serif
+}
+
+.segunda h3 {
+    font-size: 24px;
+}
+
+footer {
+   display: flex;
+   justify-content: left;
+   margin-top: 60px;
+  }
+
+  .media {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .github {
+    display: inline-block; 
+    margin: 0 10px; 
+  }
+  
+  .github img {
+    width: 40px; 
+    height: 40px;
+    border-radius: 50%; 
+  }
+
+  .githubnpm {
+    display: inline-block; 
+    margin: 0 10px; 
+  }
+
+  .githubnpm img {
+    width: 40px; 
+    height: 40px;
+  }
+
+  .links-foot {
+    display: flex;
+    justify-content: left;
+    gap: 40px;
+  }
+
+  .support {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+  }
+
+  .company {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+  }
+
+  .terms {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+  }
